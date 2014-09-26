@@ -1,0 +1,173 @@
+* 
+{
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body 
+{
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+	-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+	background:url(../img/logo.png) no-repeat center top;
+	background-size: 300%;
+	font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size:32px;
+	margin:0;
+	color:black
+}
+@media screen and (min-aspect-ratio: 1/1)
+{
+	body 
+	{
+		background-size: 150%;
+	}
+}
+
+#deviceready
+{
+	width:100%;
+}
+
+h1
+{
+	font-size: 50px;
+}
+
+a
+{
+	text-decoration:none;
+	color:black;
+}
+
+.content
+{
+	background-color:#EDEDED;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+  	border: 2px solid #ADADAD;
+	padding: 13px;
+	margin:10px;
+	margin-left:5px;
+	margin-right:5px;
+	color:#241B14;
+	overflow:auto; 
+  	box-shadow: 1px 1px 5px #000000;
+}
+.content .date
+{
+	float: right;
+	color: darkgrey;
+	font-weight:bold;
+}
+.content img {
+	max-width:50%;
+	max-height:50%;
+	float:right;
+	margin-right:0px;
+	margin-top:10px;
+	margin-bottom:7px;
+	margin-left:10px;
+}
+.content a
+{
+	color:black;
+	font-weight: bold;
+	text-decoration:underline;
+}
+.content a:hover{}
+
+.content img.left
+{
+	float:left;
+	margin-right:10px;
+	margin-left:0px;
+}
+.content .foto
+{
+	max-width: none;
+	max-height: none;
+	width: 100%;
+}
+
+.content.title
+{
+	text-align:center;
+	background-color:grey;
+}
+h1.title
+{
+	margin:0;
+	color:white;
+}
+
+.video img {
+	max-width:none;
+	max-height:none;
+	width:100%;
+}
+.video img.icon{
+	margin-top:-100%	
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+.pplogo
+{
+	background:url(../img/pp.png) no-repeat left top; /* 170px x 200px */
+	background-size:contain;
+	width: 50%;
+	height: 100px;
+}
+
+/* Landscape
+@media screen and (min-aspect-ratio: 1/1)*/
+
+#loading
+{
+	display:block;
+	background:url(../img/throbber.gif) no-repeat center top; /* 170px x 200px */
+	height:40px;
+	margin-top: 25%;
+}
+.menu
+{
+	display:none;
+	width:100%;
+	position:absolute;
+	bottom:0px;
+}
+.navi
+{
+}
+
+.button {
+	background-color:#EDEDED;
+	border-radius: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	/*border: 2px solid #ADADAD;
+	*/padding: 13px;
+	text-align: center;
+	margin:5px;
+	margin-left:5px;
+	margin-right:5px;
+	color:#241B14;
+	box-shadow: 1px 1px 5px #000000;
+	font-size: 50px;
+}
+/* gekleurde knopjes
+.button.news {background-color:#004789;}
+.button.media {background-color:#c1a657;}
+.button.agenda{background-color:#c9579b;}
+.button.contact {background-color:#3093a3;}
+.button.back {background-color:#004789;}
+*/
+.button img {
+	max-height:18px;
+	max-width:36px;
+	margin-right:10px;
+}
