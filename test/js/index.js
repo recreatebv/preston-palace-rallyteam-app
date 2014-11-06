@@ -24,6 +24,7 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
+//een extra comment
 };
 
 window.mobilecheck = function() {
