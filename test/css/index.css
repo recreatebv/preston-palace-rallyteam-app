@@ -3,18 +3,6 @@
 	-webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
-body 
-{
-	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
-	-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
-	-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-	background:url(../img/logo.png) no-repeat center top;
-	background-size: 300%;
-	font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-	font-size:32px;
-	margin:0;
-	color:black
-}
 @media screen and (min-aspect-ratio: 1/1)
 {
 	body 
@@ -28,10 +16,7 @@ body
 	width:100%;
 }
 
-h1
-{
-	font-size: 50px;
-}
+
 
 a
 {
@@ -144,21 +129,6 @@ ul
 {
 }
 
-.button {
-	background-color:#EDEDED;
-	border-radius: 100px;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	/*border: 2px solid #ADADAD;
-	*/padding: 13px;
-	text-align: center;
-	margin:5px;
-	margin-left:5px;
-	margin-right:5px;
-	color:#241B14;
-	box-shadow: 1px 1px 5px #000000;
-	font-size: 50px;
-}
 /* gekleurde knopjes
 .button.news {background-color:#004789;}
 .button.media {background-color:#c1a657;}
@@ -170,4 +140,118 @@ ul
 	max-height:18px;
 	max-width:36px;
 	margin-right:10px;
+}
+
+/* screen resolution for tablets with high resolution*/
+@media screen and (min-width: 1100px){
+
+	.button {
+		background-color:#EDEDED;
+		border-radius: 100px;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		/*border: 2px solid #ADADAD;
+		*/padding: 13px;
+		text-align: center;
+		margin:5px;
+		margin-left:5px;
+		margin-right:5px;
+		color:#241B14;
+		box-shadow: 1px 1px 5px #000000;
+		font-size: 50px;
+	}
+
+	body 
+	{
+		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+		background:url(../img/logo.png) no-repeat center top;
+		background-size: 150%;
+		font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+		font-size:32px;
+		margin:0;
+		color:black
+	}
+	
+	h1
+	{
+		font-size: 50px;
+	}
+}
+
+/* screen resolution for mobile devices with high resolution*/
+@media screen and (min-width: 500px){
+
+	.button {
+		background-color:#EDEDED;
+		border-radius: 100px;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		/*border: 2px solid #ADADAD;
+		*/padding: 13px;
+		text-align: center;
+		margin:5px;
+		margin-left:5px;
+		margin-right:5px;
+		color:#241B14;
+		box-shadow: 1px 1px 5px #000000;
+		font-size: 50px;
+	}
+
+	body 
+	{
+		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+		background:url(../img/logo.png) no-repeat center top;
+		background-size: 200%;
+		font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+		font-size:32px;
+		margin:0;
+		color:black
+	}
+	
+	h1
+	{
+		font-size: 50px;
+	}
+}
+
+/* screen resolution for mobile devices with low resolution*/
+@media screen and (max-width: 500px){
+
+	.button {
+		background-color:#EDEDED;
+		border-radius: 100px;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		/*border: 2px solid #ADADAD;
+		*/padding: 6px;
+		text-align: center;
+		margin:5px;
+		margin-left:5px;
+		margin-right:5px;
+		color:#241B14;
+		box-shadow: 1px 1px 5px #000000;
+		font-size: 25px;
+	}
+	
+	body 
+	{
+		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+		background:url(../img/logo.png) no-repeat center top;
+		background-size: 300%;
+		font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+		font-size:16px;
+		margin:0;
+		color:black
+	}
+	
+	h1
+	{
+		font-size: 25px;
+	}
 }
