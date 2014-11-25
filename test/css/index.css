@@ -102,10 +102,12 @@ ul
 
 .pplogo
 {
-	background:url(../img/pp.png) no-repeat left top; /* 170px x 200px */
-	background-size:contain;
+	background-image:url(../img/pp.png);
+	background-repeat: no-repeat;
+	background-position: center 1em; /* 170px x 200px */
+	background-size:80%;
 	width: 50%;
-	height: 100px;
+	height: 20em;
 }
 
 /* Landscape
@@ -142,44 +144,6 @@ ul
 	margin-right:10px;
 }
 
-/* screen resolution for tablets with high resolution*/
-@media screen and (min-width: 11	00px){
-
-	.button {
-		background-color:#EDEDED;
-		border-radius: 100px;
-		-moz-border-radius: 50px;
-		-webkit-border-radius: 50px;
-		/*border: 2px solid #ADADAD;
-		*/padding: 13px;
-		text-align: center;
-		margin:5px;
-		margin-left:5px;
-		margin-right:5px;
-		color:#241B14;
-		box-shadow: 1px 1px 5px #000000;
-		font-size: 50px;
-	}
-
-	body 
-	{
-		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
-		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
-		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-		background:url(../img/logo.png) no-repeat center top;
-		background-size: 150%;
-		font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-		font-size:32px;
-		margin:0;
-		color:black
-	}
-	
-	h1
-	{
-		font-size: 50px;
-	}
-}
-
 /* screen resolution for mobile devices with high resolution*/
 @media screen and (min-width: 500px){
 
@@ -204,8 +168,50 @@ ul
 		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
 		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
 		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-		background:url(../img/logo.png) no-repeat center top;
-		background-size: 200%;
+		background-image: url(../img/logo.png);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 300%;
+		font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+		font-size:32px;
+		margin:0;
+		color:black
+	}
+	
+	h1
+	{
+		font-size: 50px;
+	}
+}
+
+/* screen resolution for tablets with high resolution*/
+@media screen and (min-width: 1100px){
+
+	.button {
+		background-color:#EDEDED;
+		border-radius: 100px;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		/*border: 2px solid #ADADAD;
+		*/padding: 13px;
+		text-align: center;
+		margin:5px;
+		margin-left:5px;
+		margin-right:5px;
+		color:#241B14;
+		box-shadow: 1px 1px 5px #000000;
+		font-size: 50px;
+	}
+
+	body 
+	{
+		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+		background-image: url(../img/logo.png);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 300%;
 		font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
 		font-size:32px;
 		margin:0;
@@ -226,8 +232,8 @@ ul
 		border-radius: 100px;
 		-moz-border-radius: 50px;
 		-webkit-border-radius: 50px;
-		/*border: 2px solid #ADADAD;
-		*/padding: 6px;
+		/*border: 2px solid #ADADAD	*/
+		padding: 6px;
 		text-align: center;
 		margin:5px;
 		margin-left:5px;
@@ -242,8 +248,10 @@ ul
 		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
 		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
 		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-		background:url(../img/logo.png) no-repeat center top;
-		background-size: 300%;
+		background-image: url(../img/logo.png);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 200%;
 		font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
 		font-size:16px;
 		margin:0;
