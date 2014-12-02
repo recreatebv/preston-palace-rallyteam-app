@@ -168,10 +168,10 @@ ul
 		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
 		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
 		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-		background-image: url(../img/logo.png);
+		background-image: url(../img/logo.jpg);
 		background-repeat: no-repeat;
 		background-position: center top;
-		background-size: 300%;
+		background-size: 250%;
 		font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
 		font-size:32px;
 		margin:0;
@@ -208,10 +208,10 @@ ul
 		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
 		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
 		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-		background-image: url(../img/logo.png);
+		background-image: url(../img/logo.jpg);
 		background-repeat: no-repeat;
 		background-position: center top;
-		background-size: 300%;
+		background-size: 100%;
 		font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
 		font-size:32px;
 		margin:0;
@@ -248,10 +248,10 @@ ul
 		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
 		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
 		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-		background-image: url(../img/logo.png);
+		background-image: url(../img/logo.jpg);
 		background-repeat: no-repeat;
 		background-position: center top;
-		background-size: 200%;
+		background-size: 250%;
 		font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
 		font-size:16px;
 		margin:0;
