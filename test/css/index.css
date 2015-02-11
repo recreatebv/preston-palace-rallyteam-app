@@ -92,7 +92,11 @@ h1.title
 	width:100%;
 }
 .video img.icon{
-	margin-top:-100%	
+	margin-top:-100%;	
+}
+
+#video_image img.icon{
+	margin-top:-65%;
 }
 
 ul
